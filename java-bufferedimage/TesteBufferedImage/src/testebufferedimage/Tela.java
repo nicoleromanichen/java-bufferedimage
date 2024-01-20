@@ -16,7 +16,7 @@ import javax.swing.JPanel;
     public final int telaLargura = telaEscalada * tamanhoMaxColuna; // 48x16 = 768 pixels
     public final int telaAltura = telaEscalada * tamanhoMaxLinha; // 48x12 = 576 pixels
         
-        public Tela() {
+        public Tela() { //Construtor dessa classe está dando o tamanho para o JFrame que foi criado na classe TesteBufferedImage
             this.setPreferredSize(new Dimension(telaLargura, telaAltura));
             setBackground(new Color(54,54,54));
         }
