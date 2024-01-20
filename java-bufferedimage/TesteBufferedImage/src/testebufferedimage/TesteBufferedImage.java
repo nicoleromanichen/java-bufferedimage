@@ -4,7 +4,7 @@ import java.awt.Graphics;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 
-public class TesteBufferedImage {
+public class TesteBufferedImage { //Classe que está criando o Jframe
 
     public static void main(String[] args) {        
         JFrame janela = new  JFrame();
