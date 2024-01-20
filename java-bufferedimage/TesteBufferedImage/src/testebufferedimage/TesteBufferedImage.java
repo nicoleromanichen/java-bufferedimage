@@ -12,7 +12,7 @@ public class TesteBufferedImage { //Classe que está criando o Jframe
         janela.setTitle("Imagem Teste");
         
         Tela tela = new Tela();
-        janela.add(tela);
+        janela.add(tela);      //Linha que vai colocar as dimensões do construtor da classe tela para JFrame criado aqui
         janela.pack();
         janela.setLocationRelativeTo(null);
         
