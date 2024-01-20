@@ -5,7 +5,7 @@ import java.awt.image.BufferedImage;
 import java.io.IOException;
 import javax.imageio.ImageIO;
 
-    public class Imagem {
+    public class Imagem { //Classe que pega o diretório e que desenha as imagens
         
         Tela tela;
         public BufferedImage imagemTeste;
